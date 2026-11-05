@@ -1,0 +1,193 @@
+{
+  "strategy": "mixed-structure-v2",
+  "status": "passed",
+  "recorded_at": "2026-11-02T14:46:52.443863+08:00",
+  "parser_sha256": "c837750b6233e0a6ca7008936d9cc48c78c4e895ebc5fea5ec119b43c3210285",
+  "public_source_count": 8,
+  "public_sources": [
+    {
+      "id": "gitlab_expenses",
+      "title": "GitLab Global Travel and Expense Policy",
+      "url": "https://handbook.gitlab.com/handbook/finance/expenses/",
+      "sha256": "2e4f28c20b1cb0c283bdecc6f46b75d4a9ff8a36b4aeff14ce919af690ae66af",
+      "characters": 67195,
+      "chunks": 115,
+      "min_chunk_chars": 86,
+      "max_chunk_chars": 994,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "gitlab_procurement",
+      "title": "GitLab Procurement",
+      "url": "https://handbook.gitlab.com/handbook/finance/procurement/",
+      "sha256": "69783848a1cd9b74667341cb47d24b13d87437cd780b520096d6c64a02579b81",
+      "characters": 38516,
+      "chunks": 64,
+      "min_chunk_chars": 57,
+      "max_chunk_chars": 999,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "gitlab_faq",
+      "title": "GitLab Coupa FAQ",
+      "url": "https://handbook.gitlab.com/handbook/finance/procurement/coupa-faq/",
+      "sha256": "fe40972150d9b79016540e5f9efd001b5cd44956204cb83883b9849f8b7276a4",
+      "characters": 6794,
+      "chunks": 18,
+      "min_chunk_chars": 110,
+      "max_chunk_chars": 993,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "gitlab_navan",
+      "title": "GitLab Navan Expense End Users Guide",
+      "url": "https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/",
+      "sha256": "cf7eb84f27e864eb393e78cf3a959a3ba60e24d1a23e13a7a3e5d4fd2583d758",
+      "characters": 55144,
+      "chunks": 107,
+      "min_chunk_chars": 113,
+      "max_chunk_chars": 987,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "gitlab_leave",
+      "title": "GitLab Leave Types",
+      "url": "https://handbook.gitlab.com/handbook/people-group/time-off-and-absence/leave-types/",
+      "sha256": "3236516e56bc89182e6ba93ddd9297fc98bb43f9e9782f52f59a9bb42b40e60c",
+      "characters": 18539,
+      "chunks": 29,
+      "min_chunk_chars": 172,
+      "max_chunk_chars": 994,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "gitlab_benefits",
+      "title": "GitLab Benefits",
+      "url": "https://handbook.gitlab.com/handbook/total-rewards/benefits/",
+      "sha256": "9a696d2e3649b4eb46128629f2c88eb687f237c86522a16b061be640fd325c53",
+      "characters": 6073,
+      "chunks": 16,
+      "min_chunk_chars": 118,
+      "max_chunk_chars": 879,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "basecamp_benefits",
+      "title": "37signals Benefits & Perks",
+      "url": "https://basecamp.com/handbook/benefits-and-perks",
+      "sha256": "40e6f80bea92f274a70d10118233448c319980c3f53fc0b0d864f487a00c3588",
+      "characters": 13206,
+      "chunks": 27,
+      "min_chunk_chars": 37,
+      "max_chunk_chars": 971,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "id": "basecamp_work",
+      "title": "37signals How We Work",
+      "url": "https://basecamp.com/handbook/how-we-work",
+      "sha256": "14578e6b3c6fdd0242a400e8c398853a2dc2db1cc662578fb1a9ec4431449398",
+      "characters": 5463,
+      "chunks": 11,
+      "min_chunk_chars": 36,
+      "max_chunk_chars": 963,
+      "original_nonwhitespace_text_retained_in_order": true
+    }
+  ],
+  "preview_examples": [
+    {
+      "title": "真实案例：GitLab 差旅政策数字标题（去除 Markdown 标记以模拟纯文本）",
+      "source_id": "gitlab_expenses",
+      "characters": 651,
+      "size_limit": 1000,
+      "chunks": 2,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "真实案例：GitLab 采购 FAQ 问题与回答",
+      "source_id": "gitlab_faq",
+      "characters": 181,
+      "size_limit": 1000,
+      "chunks": 1,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "真实案例：GitLab 采购混合编号",
+      "source_id": "gitlab_procurement",
+      "characters": 232,
+      "size_limit": 1000,
+      "chunks": 1,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：中文层级与普通栏目",
+      "source_id": null,
+      "characters": 80,
+      "size_limit": 1000,
+      "chunks": 4,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：ISO 风格数字层级",
+      "source_id": null,
+      "characters": 76,
+      "size_limit": 1000,
+      "chunks": 4,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：问答与长回答",
+      "source_id": null,
+      "characters": 476,
+      "size_limit": 240,
+      "chunks": 4,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：长条件清单延续引导语",
+      "source_id": null,
+      "characters": 444,
+      "size_limit": 240,
+      "chunks": 3,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：完整步骤",
+      "source_id": null,
+      "characters": 464,
+      "size_limit": 240,
+      "chunks": 3,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：表格按行分组、重复表头与注释（金额为测试数据）",
+      "source_id": null,
+      "characters": 425,
+      "size_limit": 240,
+      "chunks": 3,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：制表符文本表格",
+      "source_id": null,
+      "characters": 290,
+      "size_limit": 240,
+      "chunks": 2,
+      "original_nonwhitespace_text_retained_in_order": true
+    },
+    {
+      "title": "合成案例：普通叙述兜底",
+      "source_id": null,
+      "characters": 350,
+      "size_limit": 240,
+      "chunks": 2,
+      "original_nonwhitespace_text_retained_in_order": true
+    }
+  ],
+  "live_model_calls": false,
+  "rag_hit_rate": null,
+  "limits": [
+    "structure-based heuristics, not model-based semantic segmentation",
+    "no OCR or complex PDF table reconstruction"
+  ]
+}

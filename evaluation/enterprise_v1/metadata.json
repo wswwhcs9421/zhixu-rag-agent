@@ -1,0 +1,30 @@
+{
+  "dataset_id": "enterprise_internal_control_v1",
+  "snapshot_date": "2026-11-01",
+  "source_count": 10,
+  "question_count": 44,
+  "answerable": 40,
+  "unanswerable": 4,
+  "types": {
+    "条件与例外": 15,
+    "流程与职责": 15,
+    "跨文档综合": 4,
+    "事实定位": 5,
+    "清单与分类": 1,
+    "资料不足拒答": 4
+  },
+  "questions_sha256": "0a9c1e55308cfd51cfe462a478c78a02440f3847b1697ad6708c4c83f9f885ea",
+  "original_publication": "财政部企业内部控制应用指引，财会〔2010〕11号配套指引",
+  "version_scope": "固定2010年原文的检索阅读理解评测，不代表某家企业现行制度或对现行法律效力的判断",
+  "question_origin": "source-grounded manually authored realistic business questions; not production user logs",
+  "upload_only": "corpus/*.md",
+  "never_upload": [
+    "questions.jsonl",
+    "题库与标准答案.md",
+    "sources_raw/",
+    "articles.json",
+    "metadata.json",
+    "README.md"
+  ],
+  "status": "gold dataset prepared and validated; no live RAG score has been measured"
+}

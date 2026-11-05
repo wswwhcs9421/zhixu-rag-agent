@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "documents": 10,
+  "articles": 175,
+  "questions": 44,
+  "answerable": 40,
+  "unanswerable": 4,
+  "cross_document": 4,
+  "evidence_quotes_checked": 68,
+  "questions_sha256": "0a9c1e55308cfd51cfe462a478c78a02440f3847b1697ad6708c4c83f9f885ea",
+  "original_pdf_sha256": "f58df37bd55c7b53673d137ed0fcef29fd0b1258d44e6f671d8d04acdba47d9a",
+  "live_rag_measured": false,
+  "recorded_at": "2026-10-31T23:27:12.093441+00:00"
+}
